@@ -1269,11 +1269,11 @@ blockquote p {
 }
 
 .flex-direction-nav a.flex-prev:before {
-    content: "\f3d2";
+    content: "";
 }
 
 .flex-direction-nav a.flex-next:before {
-    content: "\f3d3";
+    content: "";
 }
 
 .flex-direction-nav a:before {
@@ -3598,10 +3598,35 @@ Whatsapp
     .header-social {
         display: none !important;
     }
+    .h7 {
+        font-size: 21px !important;
+        letter-spacing: 1px !important;
+        color: #ffff !important;
+        font-family: Raleway, sans-serif;
+        text-transform: uppercase;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .header-social {
         display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .da-thumbs li a,
+    .da-thumbs li a img {
+        display: block;
+        position: relative;
+        width: 86%;
+    }
+    .da-thumbs li a .portfolio-detail-overlay {
+        position: absolute;
+        background: #fff;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px;
+        text-align: center;
+        width: 86%;
+        height: 100%;
     }
 }
