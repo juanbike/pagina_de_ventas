@@ -3630,3 +3630,23 @@ Whatsapp
         height: 100%;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    h4 {
+        margin-left: 26px;
+        font-size: 11px;
+    }
+    p {
+        margin-left: 23px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h4 {
+        margin-left: 37px;
+        font-size: 11px;
+    }
+    p {
+        margin-left: 34px;
+    }
+}
