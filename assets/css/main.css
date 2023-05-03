@@ -130,7 +130,7 @@ html {
     padding: 90px 0;
     position: relative;
     z-index: 5;
-    background-color: #fff;
+    background: linear-gradient(to bottom, #f0ead6, #ffffff);
 }
 
 .section.dark .section-heading h2,
@@ -2107,7 +2107,7 @@ expertice3
 }
 
 .services {
-    background: #fff;
+    background: linear-gradient(to bottom, #f0ead6, #ffffff);
     background-size: cover;
 }
 
@@ -2990,7 +2990,7 @@ expertice3
 }
 
 .our-process {
-    background-color: #fff;
+    background: linear-gradient(to bottom, #f0ead6, #ffffff);
     padding-bottom: 0;
 }
 
